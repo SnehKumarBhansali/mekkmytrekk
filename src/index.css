@@ -1,0 +1,32 @@
+
+.navigation-btn {
+	padding: 2px 2px;
+	margin: 0.375rem;
+	background: transparent;
+	border: none;
+	color: white;
+}
+
+.navigation-btn:focus {
+	outline: none;
+}
+
+.navigation-btn:hover {
+	cursor: pointer;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    body {
+        padding-top:59px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        padding-top:67px;
+    }
+}
+@media only screen and (min-width:992px){
+    body {
+        padding-top: 67px;
+    }
+}
